@@ -76,7 +76,6 @@ body {
 .post {
   margin-top: 20px;
   height: 500px;
-  border: 1px solid;
 }
 .drop-down {
   background: rgba(237, 238, 240, 1);
@@ -101,12 +100,24 @@ body {
 }
 
 .location {
-  margin-top: 20px;
-  padding: 5px;
+  margin-top: 29px;
+  padding: 10px;
   padding-bottom: 13px;
   background-color: rgb(255, 255, 255);
+}
+.loc {
+  padding: 6px;
+  border-bottom: 1px solid rgba(184, 184, 184, 1);
+}
+.info {
+  padding: 0 0 0 10px;
+}
+.info-a {
+  margin-top: 32px;
+}
 
-  border-bottom: 2px solid #e0e0e0;
+.info-text {
+  text-align: start;
 }
 
 .modal-dialog {
@@ -140,6 +151,50 @@ body {
 }
 .edit {
   float: right;
+}
+.card-container {
+  width: 692px;
+  height: 472px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.card-content {
+  padding: 20px;
+}
+.card-text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.17%;
+  padding-top: 10px;
+}
+.dot-3 {
+  float: right;
+}
+.profile {
+  margin-top: 32px;
+}
+.profile > span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  margin-left: 10px;
+}
+.card-p {
+  width: 652px;
+  height: 25px;
+  font-size: 18px;
+  line-height: 134.17%;
+  display: block;
+  margin-top: 12px;
+}
+.view-logo {
+  top: 37px;
+}
+.eye {
+  margin-right: 5px;
+}
+.share {
+  margin-left: 52px;
 }
 
 @media (min-width: 768px) {
