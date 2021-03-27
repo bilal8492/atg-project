@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script> -->
+
+    <title>Across The Globe</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default hidden-xs navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header logo">
+                    <img src="Images/whole.svg" alt="logo">
+                </div>
+                <form class="navbar-form navbar-left navbar-center search">
+                    <span class="glyphicon glyphicon-search search-icon"></span>
+                    <input type="text" class="form-control" placeholder="Search for your favorite groups in ATG">
+                </form>
+                <div class="navbar-right create-acc" data-toggle="modal" data-target="#myModal">
+                    <span>Create account.</span>
+                    <span class="its-free">It's free!</span>
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="jumbotron img-responsive">
+        <div class="jumb-content">
+            <h1>Computer Engineering</h1>
+            <h4>142,765 Computer Engineering follow this</h4>
+        </div>
+    </div>
+    <div class="container">
+        <!-- <div>
+            <span>All posts(32)</span>
+            <span class="text-muted" disabled="disabled">Article</span>
+            <span class="text-muted" disabled="disabled">Event</span>
+            <span class="text-muted" disabled="disabled">Education</span>
+            <span class="text-muted" disabled="disabled">Job</span>
+            
+        </div> -->
+        <div class="row row-no-gutters filter">
+            <div class="col-md-8 no-padding-left">
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="filter-active"><a class="no-padding-left" href="#">All posts(32)</a>
+                    </li>
+                    <li role="presentation" class="disabled"><a href="#">Article</a></li>
+                    <li role="presentation" class="disabled"><a href="#">Event</a></li>
+                    <li role="presentation" class="disabled"><a href="#">Education</a></li>
+                    <li role="presentation" class="disabled"><a href="#">Job</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 no-padding-right">
+                <div class="join-buttons">
+                    <button type="button" class="btn btn-secondary btn-lg drop-down">Write a Post
+                        <span class="glyphicon glyphicon-triangle-bottom drop"></span>
+                    </button>
+                    <button type="button" class="btn btn-primary join"><img src="Images/Vector.svg" alt="logo">
+                        Join Group</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="post col-md-9">
+
+            </div>
+            <div class="location col-md-3 ">
+                <img src="Images/outline-location_on-24px 2.svg" alt="logo"><span class="noida"> Noida, India </span>
+                <img src="Images/edit.png" class="edit" alt="logo">
+
+            </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

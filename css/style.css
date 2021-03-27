@@ -1,0 +1,151 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+  height: 72px;
+}
+.create-acc {
+  margin-top: 27px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #2e2e2e;
+}
+.its-free {
+  color: rgba(47, 108, 229, 1);
+}
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 440px;
+  position: relative;
+  background-image: url("/Images/Rectangle\ 2.png");
+  opacity: 1;
+}
+
+.jumb-content {
+  color: #fff;
+  position: absolute;
+  left: 200px;
+  top: 286px;
+}
+
+.jumb-content h1 {
+  font-size: 36px;
+  line-height: 47px;
+  font-weight: bold;
+}
+
+.jumb-content h4 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 200;
+}
+.search {
+  top: 10px;
+}
+.search input::placeholder {
+  font-weight: bold;
+  color: rgba(92, 92, 92, 1);
+}
+
+.search input {
+  border-radius: 21px;
+  width: 360px !important;
+  padding-left: 50px;
+  background: rgba(242, 242, 242, 1);
+}
+.search-icon {
+  top: 12px;
+  left: 30px;
+  position: absolute;
+  color: rgba(92, 92, 92, 1);
+}
+.logo {
+  margin: 24px 0 0 72px;
+}
+
+.filter {
+  height: 50px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.post {
+  margin-top: 20px;
+  height: 500px;
+  border: 1px solid;
+}
+.drop-down {
+  background: rgba(237, 238, 240, 1);
+  font-weight: bold;
+  height: 36px;
+  font-size: 15px;
+  margin: 0 3px 0 0;
+}
+.drop {
+  font-size: small;
+}
+.join {
+  width: 125px;
+  height: 36px;
+  background: rgba(47, 108, 229, 1);
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.join:hover {
+  background: rgba(47, 108, 229, 1);
+}
+
+.location {
+  margin-top: 20px;
+  padding: 5px;
+  padding-bottom: 13px;
+  background-color: rgb(255, 255, 255);
+
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.modal-dialog {
+  padding-top: 15%;
+}
+
+.join-buttons {
+  float: right;
+}
+
+.nav-pills .filter-active::after {
+  content: "";
+  border-bottom: 2px solid;
+  width: 95px;
+  top: -5px;
+  position: relative;
+  display: inline-block;
+}
+
+.no-padding-left {
+  padding-left: 0 !important;
+}
+
+.no-padding-right {
+  padding-right: 0 !important;
+}
+.noida {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.edit {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .navbar-form.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
