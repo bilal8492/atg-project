@@ -216,7 +216,6 @@ body {
   margin-left: 10px;
 }
 .card-p {
-  width: 652px;
   height: 25px;
   font-size: 18px;
   line-height: 134.17%;
@@ -421,5 +420,49 @@ body {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .jumb-content {
+    left: 10%;
+    top: 60%;
+  }
+  .jumb-content h1 {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .jumb-content h4 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .jumbotron {
+    height: 236px;
+  }
+  .xs-post {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+  .card-container {
+    width: 98%;
+  }
+  .card-text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .card-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .share {
+    margin: 0;
+  }
+  .xs-view {
+    position: absolute;
+    bottom: -3px;
+    left: 75px;
   }
 }
