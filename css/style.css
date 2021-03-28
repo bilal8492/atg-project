@@ -331,6 +331,9 @@ body {
   font-size: 14px !important;
   line-height: 16px !important;
 }
+.c-a-btn a {
+  color: #fff;
+}
 .first-name {
   width: 160px;
   height: 46px;
@@ -350,10 +353,10 @@ body {
 }
 .pass-eye {
   position: absolute;
-  right: 92px;
-  top: 172px;
+  right: 20%;
+  top: 40%;
 }
-.form-body > input {
+.form-body input {
   background: #f7f8fa;
   border: 1px solid #d9d9db;
   box-sizing: border-box;
@@ -365,13 +368,21 @@ body {
 }
 .facebook {
   position: absolute;
+  left: 17%;
+  top: 50%;
+}
+.relative {
+  position: relative;
+}
+/* .facebook-signin {
+  position: absolute;
   left: 103px;
   bottom: 76px;
-}
+} */
 .google {
   position: absolute;
-  bottom: 15px;
-  left: 111px;
+  left: 17%;
+  top: 50%;
 }
 .signup {
   color: #000;
@@ -385,7 +396,10 @@ body {
   font-size: 13px;
   line-height: 17px;
 }
-
+.forgot-password {
+  margin: 23px 0;
+  width: 320px;
+}
 .already-acc a {
   color: #2f6ce5;
   font-weight: bold;
