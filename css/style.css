@@ -77,6 +77,11 @@ body {
   margin-top: 20px;
   height: 500px;
 }
+
+.post > div {
+  margin-bottom: 16px;
+}
+
 .drop-down {
   background: rgba(237, 238, 240, 1);
   font-weight: bold;
@@ -154,9 +159,10 @@ body {
 }
 .card-container {
   width: 692px;
-  height: 472px;
+  /* height: 472px; */
   border: 1px solid #e0e0e0;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .card-content {
   padding: 20px;
@@ -167,8 +173,14 @@ body {
   line-height: 134.17%;
   padding-top: 10px;
 }
+.card-h {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
 .dot-3 {
   float: right;
+  border-style: none;
 }
 .profile {
   margin-top: 32px;
@@ -196,7 +208,36 @@ body {
 .share {
   margin-left: 52px;
 }
-
+.date-location {
+  display: block;
+  margin-top: 52px;
+}
+.date-loc {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  margin-left: 7px;
+}
+.date-logo {
+  margin-left: 17px;
+  margin-bottom: 5px;
+}
+.location-logo {
+  margin-left: 57px;
+  margin-bottom: 5px;
+}
+.dropdown-menu {
+  left: -117px;
+}
+.btn-visit-website {
+  width: 97%;
+  color: #02b875;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.text-color {
+  color: rgba(229, 97, 53, 1);
+}
 @media (min-width: 768px) {
   .navbar-form.navbar-center {
     position: absolute;
