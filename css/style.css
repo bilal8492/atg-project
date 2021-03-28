@@ -1,7 +1,9 @@
 body {
   font-family: "IBM Plex Sans", sans-serif;
 }
-
+.navbar-default {
+  background-color: #fff !important;
+}
 .navbar {
   margin-bottom: 0;
   height: 72px;
@@ -99,6 +101,19 @@ body {
   font-size: 15px;
   margin-left: 10px;
 }
+.leave-grp {
+  width: 125px;
+  height: 36px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  font-size: 15px;
+  margin-left: 10px;
+  color: rgba(106, 106, 107, 1);
+  border: 0.8px solid #989899;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
 
 .join:hover {
   background: rgba(47, 108, 229, 1);
@@ -154,9 +169,18 @@ body {
   font-weight: bold;
   font-size: 14px;
 }
+.enter-location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: black;
+  opacity: 0.5;
+}
 .edit {
   float: right;
 }
+
 .card-container {
   width: 692px;
   /* height: 472px; */
@@ -237,6 +261,43 @@ body {
 }
 .text-color {
   color: rgba(229, 97, 53, 1);
+}
+.loggedin-profile {
+  margin-top: 12px;
+}
+
+.recommended-grp {
+  /* display: block; */
+  margin-top: 54px;
+}
+.thumb {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.thumb-text {
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: black;
+}
+.profiles {
+  margin-left: 10px;
+}
+.follow {
+  background: rgba(237, 238, 240, 1);
+  padding: 3px 15px 3px 15px;
+  border-radius: 14px;
+  font-size: 14px !important;
+
+  float: right;
+}
+.see-more {
+  color: rgba(47, 108, 229, 1);
+  margin-top: 60px;
+  float: right;
 }
 @media (min-width: 768px) {
   .navbar-form.navbar-center {
