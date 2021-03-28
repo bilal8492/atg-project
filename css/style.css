@@ -233,7 +233,7 @@ body {
 }
 .date-location {
   display: block;
-  margin-top: 52px;
+  margin-top: 16px;
 }
 .date-loc {
   font-weight: 600;
@@ -242,7 +242,6 @@ body {
   margin-left: 7px;
 }
 .date-logo {
-  margin-left: 17px;
   margin-bottom: 5px;
 }
 .location-logo {
@@ -253,7 +252,7 @@ body {
   left: -117px;
 }
 .btn-visit-website {
-  width: 97%;
+  width: 100%;
   color: #02b875;
   font-weight: bold;
   margin-top: 16px;
@@ -447,7 +446,7 @@ body {
     margin-top: 10px;
   }
   .card-container {
-    width: 98%;
+    width: 100%;
   }
   .card-text {
     font-size: 16px;
@@ -464,5 +463,9 @@ body {
     position: absolute;
     bottom: -3px;
     left: 75px;
+  }
+  .post {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
